@@ -1,0 +1,19 @@
+.fondo{
+    gap: 1rem;
+    padding: 1rem;
+    flex: content;
+	background-color:bisque;
+	margin: 1rem;
+	border-radius: 15px;
+}
+
+
+.btnSumit {
+  
+    background: #f5ca5c;
+    border-radius: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+  
+  }
+  

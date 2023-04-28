@@ -1,0 +1,41 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    border-color: #f5ca5c;
+    border-width: 1px;
+    border-style: dotted;
+    width:810px;
+    padding: 2%;
+   
+}
+
+.boton1 {
+    background: #f5ca5c;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    width: 160px;
+    height: 40px;
+  }
+
+  .boton2 {
+    background: #f5ca5c;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    width: 160px;
+    height: 40px;
+  }
+
+  .boton3 {
+    background: #f5ca5c;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    width: 160px;
+    height: 40px;
+  }
+
+

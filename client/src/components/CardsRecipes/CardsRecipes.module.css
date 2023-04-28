@@ -1,0 +1,14 @@
+
+
+
+.cardsTodas{
+
+    
+    gap: 1rem;
+    padding: 1rem;
+    flex: content;
+	background-color:rgb(212, 212, 209);
+	margin: 1rem;
+	opacity: 0.9;
+	border-radius: 15px;
+}

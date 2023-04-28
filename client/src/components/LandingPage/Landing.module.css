@@ -1,0 +1,55 @@
+
+
+.button {
+  width: 500px;
+  height: 69px;
+  position:relative;
+            left:120px;
+            top: 280px;
+
+  background: #f5ca5c;
+  border-radius: 20px;
+  font-family: Poppins;
+  font-size: 24px;
+  
+
+
+}
+
+.container{
+  font-family: Poppins;
+}
+
+.title{
+  
+    width: 729px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+      
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 10%;
+    position:relative;
+            left:120px;
+            top:90px;
+    /* or 72px */
+  
+  
+    color: #000000;
+}
+.second {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 600;
+}
+
+.third {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 200;
+  font-family: 'Poppins';
+  font-style: light;
+}
