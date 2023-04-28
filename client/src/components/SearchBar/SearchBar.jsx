@@ -1,6 +1,7 @@
 import React , {useState} from "react";
 import { useDispatch } from "react-redux";
 import { getRecipeByTitle } from "../../redux/actions";
+import styles from "./SearchBar.module.css"
 
 
 const SearchBar = ()=>{
@@ -21,9 +22,9 @@ const SearchBar = ()=>{
     }
 
     return(
-        <div>
+        <div className={styles.search}>
         <input type="text" placeholder="Buscar..." value={title}  onChange={(e)=>handleInputChange(e)} />
-        <button type="submit" onClick={(e)=>handleSubmit(e)}>Buscar</button>
+        <button type="submit" onClick={(e)=>handleSubmit(e)}>Search</button>
         </div>
     )
 

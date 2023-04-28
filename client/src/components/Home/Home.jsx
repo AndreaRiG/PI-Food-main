@@ -17,7 +17,7 @@ const Home = () => {
 
     const dispatch = useDispatch();//con useSelector, declaro una constante y traeme todo lo que está en el estado de state.recipes, en este caso tambien diets
 
-    const allRecipes = useSelector((state) => state.recipes);   //const allDiets = useSelector((state) => state.diets);
+    const allRecipes = useSelector((state) => state.recipes);   
     const [currentPage, setCurrentPage] = useState(1) //le pongo esto de useState por que es un estado local
     const [recipesPerPage, //setRecipesPerPage
     ] = useState(9)// en estas constantes guardo cuantos personajes por página y cuantos voy a querer

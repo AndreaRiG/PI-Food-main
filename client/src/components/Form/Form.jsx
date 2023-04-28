@@ -131,7 +131,7 @@ const Form = ()=>{
             <div>
             <h1>Crea tu receta</h1>
                 <label htmlFor="title">Title</label>
-                <input type="text" name="title" value={form.title} onChange={handleChange} />
+                <input type="text" placeholder="titulo de tu receta" name="title" value={form.title} onChange={handleChange} />
                 <br></br>
             </div>
 
@@ -142,6 +142,7 @@ const Form = ()=>{
                 <label htmlFor="summary">Summary</label>
                 <textarea
                 name="summary"
+                placeholder="Breve descripcion" 
                 onChange={handleChange}
                 value={form.summary}
               />
@@ -152,7 +153,7 @@ const Form = ()=>{
             <div>
             <br></br>
                 <label htmlFor="healthScore">Health score</label>
-                <input type="text" name="healthScore" value={form.healthScore} onChange={handleChange}/>
+                <input type="text" placeholder="Debe ser un numero entre 1 y 100" name="healthScore" value={form.healthScore} onChange={handleChange}/>
                 <br></br>
             </div>
             {errors.healthScore && <span>{errors.healthScore}</span>}
@@ -163,6 +164,7 @@ const Form = ()=>{
                 
                 <textarea
                 name="instructions"
+                placeholder="Breve descripcion de pasos"
                 onChange={handleChange}
                 value={form.instructions}
               />
@@ -173,7 +175,7 @@ const Form = ()=>{
             <div>
             <br></br>
                 <label htmlFor="image">image</label>
-                <input type="text" name="image" value={form.image} onChange={handleChange} />
+                <input type="text" name="image" placeholder="Puedes poner un texto tambien" value={form.image} onChange={handleChange} />
                 <br></br>
             </div>
             {errors.image && <span>{errors.image}</span>}

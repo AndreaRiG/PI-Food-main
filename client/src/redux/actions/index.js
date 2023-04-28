@@ -50,6 +50,9 @@ export const getRecipeByTitle = (title) => {
     }
 }
 
+//export const getLoquemePidan =(piden) =>{}
+
+
 
 export const recipeDetail = (id)=>{
     return async function(dispatch){
